@@ -1,0 +1,67 @@
+/*Raleway Font*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*Lexend Deca Font*/
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+// Colores
+$negro100: #031219;
+$negro80: #354147;
+$negro60: #687175;
+$negro40: #9AA0A3;
+$negro20: #CDD0D1;
+
+$gris100: #373B44;
+$gris80: #5F6269;
+$gris60: #87898F;
+$gris40: #AFB1B4;
+$gris20: #D7D8DA;
+
+$gris-sup100: #DADAD8;
+$gris-sup80: #E1E1E0;
+$gris-sup60: #E9E9E8;
+$gris-sup40: #F0F0EF;
+$gris-sup20: #F8F8F7;
+
+$rosa100: #FF3D7F;
+$rosa80: #FF6499;
+$rosa60: #FF8BB2;
+$rosa40: #FFB1CC;
+$rosa20: #FFD8E5;
+
+$turquesa100: #3FB8AF;
+$turquesa80: #65C6BF;
+$turquesa60: #8CD4CF;
+$turquesa40: #B2E3DF;
+$turquesa20: #D9F1EF;
+
+$blanco: #fff;
+$primario: #2E67F8;
+$exito: #268857;
+$peligro: #D73447;
+$advertencia: #FBC332;
+$info: #38C9EE;
+
+//Textos
+$lexend: "Lexend Deca", arial, sans-serif;
+$raleway: "Raleway", arial, sans-serif;
+
+body {
+    font-family: $raleway;
+    header {
+        width: 100%;
+        background-color: $negro80;
+        color: white;
+        #menu-principal {
+            list-style: none;
+            li {
+                display: inline;
+            }
+        }
+    }
+}
+
+//Titulos
+h1, h2, h3, h4, h5, h6 {
+    font-family: $lexend;
+}
+
