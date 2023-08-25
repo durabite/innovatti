@@ -8,7 +8,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
   </head>
   <body>
-    <header class="py-3">
+
+    <!-- Header -->
+    <header class="py-3 sticky-top">
       <div class="container">
         <div class="row">
           <div class="col-6">
@@ -16,8 +18,8 @@
               <img src="image/logoInnovattiBlanco.png" alt="">
             </a>
           </div>
-          <div class="col-6 d-flex">
-            <ul id="menu-principal" class="d-flex">
+          <div class="col-6 d-flex align-items-center">
+            <ul id="menu-principal" class="d-flex align-items-center m-0 justify-content-end">
               <li><a href="#">Nosotros</a></li>
               <li><a href="#">Clientes</a></li>
               <li><a href="#">Portafolio</a></li>
@@ -28,6 +30,168 @@
         </div>
       </div>
     </header>
+
+    <!-- Slider -->
+    <div class="slider">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div id="carouselExampleCaptions" class="carousel slide">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="image/carrusel1.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="image/carrusel2.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="image/carrusel3.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Nosotros -->
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="display-3 text-center">Nosotros</h1>
+        </div>
+        <div class="col-6">
+          <p>Somos una agencia 100% mexicana, con más de 14 años de
+            experiencia. Contamos con una gama amplia de servicios.
+            Nuestra meta principal es crear la mejor experiencia para nuestros
+            clientes; por ello, hemos adaptado nuestra oferta en todos los
+            ámbitos que conforman el BTL, procurando la excelencia en cada
+            uno.</p>
+            <p>INNOVATTI es una empresa constituida en 2008, Empresa con
+              REPSE —garantizando seguridad a tu marca— con vasta
+              experiencia en reclutamiento y contratación.
+              </p>
+              <p>Amamos ir de la mano con las marcas, por eso nos encargamos directamente de crear, 
+                conceptualizar, diseñar y producir todo lo necesario. </p>
+              <p>
+                Analizamos y pensamos estratégicamente cada proyecto, generamos buena imagen,
+                establecemos excelente Comunicación y construimos una personalidad diferenciadora.</p>
+        </div>
+        <div class="col-6">
+          <img src="image/nosotros.png" class="img-fluid" alt="Nosotros">
+        </div>
+      </div>
+    </div>
+
+    <!-- Clientes -->
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="display-3 text-center">Clientes</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-2"><img src="image/logo-1940.png" alt="" class="img-fluid"></div>
+        <div class="col-2"><img src="image/logo-1940.png" alt="" class="img-fluid"></div>
+        <div class="col-2"><img src="image/logo-1940.png" alt="" class="img-fluid"></div>
+        <div class="col-2"><img src="image/logo-1940.png" alt="" class="img-fluid"></div>
+        <div class="col-2"><img src="image/logo-1940.png" alt="" class="img-fluid"></div>
+        <div class="col-2"><img src="image/logo-1940.png" alt="" class="img-fluid"></div>
+      </div>
+    </div>
+
+    <!-- Portafolio -->
+    <div id="portafolio">
+      <div class="container my-5 py-5">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="display-3 text-center">Portafolio</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4"><img src="image/porta-01.png" alt="" class="img-fluid"></div>
+          <div class="col-4"><img src="image/porta-01.png" alt="" class="img-fluid"></div>
+          <div class="col-4"><img src="image/porta-01.png" alt="" class="img-fluid"></div>
+          <div class="col-4 mt-5"><img src="image/porta-01.png" alt="" class="img-fluid"></div>
+          <div class="col-4 mt-5"><img src="image/porta-01.png" alt="" class="img-fluid"></div>
+          <div class="col-4 mt-5"><img src="image/porta-01.png" alt="" class="img-fluid"></div>
+        </div>
+      </div>
+    </div>
+
+  <!-- Experiencia -->
+  <div class="container my-5">
+    <div class="row">
+      <div class="col-12">
+        <h1 class="display-3 text-center">Experiencia</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6">
+        <p>
+          Somos una agencia BTL 360, conformada por un equipo de
+profesionales y creativos con el fin de desarrollar nuevas tendencias y brindar soluciones.
+        </p>
+        <p>
+          Siempre buscamos la manera más simple y
+divertida de proyectar tu marca para que sea amada por los
+consumidores.
+        </p>
+      </div>
+      <div class="col-6">
+        <p>
+          Conectamos con el público con tu marca, manteniendo un
+vínculo invulnerable entre diseño, imagen e identidad
+corporativa, marketing digital y posicionamiento de marca.
+Trabajamos por y para nuestros clientes. Entregamos a cada
+proyecto todo nuestro talento, nuestra pasión, experiencia y
+creatividad.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6">
+        <img src="image/exp-01.png" alt="" class="img-fluid">
+      </div>
+      <div class="col-6">
+        <img src="image/exp-01.png" alt="" class="img-fluid">
+      </div>
+    </div>
+  </div>
+<footer class="mt-5 py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        aqui va el footer
+      </div>
+    </div>
+  </div>
+</footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
   </body>
 </html>
