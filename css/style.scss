@@ -47,13 +47,40 @@ $raleway: "Raleway", arial, sans-serif;
 
 body {
     font-family: $raleway;
+    background-color: $gris-sup80;
     header {
         width: 100%;
         background-color: $negro80;
         color: white;
         #menu-principal {
             list-style: none;
+            li {
+                display: inline;
+                margin-left: 20px;
+                a {
+                    text-decoration: none;
+                    font-size: 1.2rem;
+                    font-weight: bold;
+                    color: white;
+                    transition: color 1s;
+                    &:hover {
+                        color: $rosa100;
+                    }
+                }
+               
+            }
         }
+    }
+    .slider {
+        background-color: black;
+    }
+    #portafolio {
+        background-color: $negro100;
+        color: white;
+    }
+    footer {
+        background-color: $gris100;
+        color: white;
     }
 }
 
