@@ -44,7 +44,9 @@ $info: #38C9EE;
 //Textos
 $lexend: "Lexend Deca", arial, sans-serif;
 $raleway: "Raleway", arial, sans-serif;
-
+b {
+    color: $rosa100;
+} 
 body {
     font-family: $raleway;
     background-color: $gris-sup80;
