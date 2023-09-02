@@ -42,34 +42,42 @@ $advertencia: #FBC332;
 $info: #38C9EE;
 
 //Textos
-$lexend: "Lexend Deca", arial, sans-serif;
+$lexend: "Lexend Deca", arial, sans-serif; 
 $raleway: "Raleway", arial, sans-serif;
 b {
     color: $rosa100;
 } 
+.rosa {
+    color: $rosa100 !important;
+}
 body {
     font-family: $raleway;
     background-color: $gris-sup80;
     header {
         width: 100%;
-        background-color: $negro80;
+        background-color: $negro100;
         color: white;
         #menu-principal {
             list-style: none;
+            font-family: $lexend !important;
+            text-transform: uppercase;
             li {
                 display: inline;
                 margin-left: 20px;
                 a {
                     text-decoration: none;
                     font-size: 1.2rem;
-                    font-weight: bold;
+                    font-weight: 400;
                     color: white;
                     transition: color 1s;
                     &:hover {
                         color: $rosa100;
                     }
                 }
-               
+                #btn-contacto {
+                    border: 1px solid $rosa100;
+                    border-radius: 3px;
+                }
             }
         }
     }

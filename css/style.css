@@ -6,17 +6,23 @@ b {
   color: #FF3D7F;
 }
 
+.rosa {
+  color: #FF3D7F !important;
+}
+
 body {
   font-family: "Raleway", arial, sans-serif;
   background-color: #E1E1E0;
 }
 body header {
   width: 100%;
-  background-color: #354147;
+  background-color: #031219;
   color: white;
 }
 body header #menu-principal {
   list-style: none;
+  font-family: "Lexend Deca", arial, sans-serif !important;
+  text-transform: uppercase;
 }
 body header #menu-principal li {
   display: inline;
@@ -25,12 +31,16 @@ body header #menu-principal li {
 body header #menu-principal li a {
   text-decoration: none;
   font-size: 1.2rem;
-  font-weight: bold;
+  font-weight: 400;
   color: white;
   transition: color 1s;
 }
 body header #menu-principal li a:hover {
   color: #FF3D7F;
+}
+body header #menu-principal li #btn-contacto {
+  border: 1px solid #FF3D7F;
+  border-radius: 3px;
 }
 body .slider {
   background-color: black;
