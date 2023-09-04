@@ -81,8 +81,12 @@ body {
             }
         }
     }
-    .slider {
+    .slider-principal {
         background-color: black;
+    }
+    #nosotros{
+        border: 1px solid $rosa100;
+        border-radius: 6px;
     }
     #portafolio {
         background-color: $negro100;
@@ -99,3 +103,45 @@ h1, h2, h3, h4, h5, h6 {
     font-family: $lexend;
 }
 
+//Logo Slider
+#clientes {
+    background-color: $gris-sup40;
+    .container {
+        overflow: hidden;
+        .slider-logos {
+          animation: slidein 60s linear infinite;
+          white-space: nowrap;
+          .logos {
+            width: 100%;
+            display: inline-block;
+            margin: 0px 0;
+            .fab {
+                margin: 0 10px;
+              width: calc(100% / 8);
+              animation: fade-in 0.5s 
+                cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
+            }
+          }
+        }
+      }
+      
+      @keyframes slidein {
+        from {
+          transform: translate3d(0, 0, 0);
+        }
+        to {
+          transform: translate3d(-100%, 0, 0);
+        }
+      }
+      
+      @keyframes fade-in {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+}
+
+  

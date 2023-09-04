@@ -42,8 +42,12 @@ body header #menu-principal li #btn-contacto {
   border: 1px solid #FF3D7F;
   border-radius: 3px;
 }
-body .slider {
+body .slider-principal {
   background-color: black;
+}
+body #nosotros {
+  border: 1px solid #FF3D7F;
+  border-radius: 6px;
 }
 body #portafolio {
   background-color: #031219;
@@ -56,4 +60,41 @@ body footer {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Lexend Deca", arial, sans-serif;
+}
+
+#clientes {
+  background-color: #F0F0EF;
+}
+#clientes .container {
+  overflow: hidden;
+}
+#clientes .container .slider-logos {
+  animation: slidein 60s linear infinite;
+  white-space: nowrap;
+}
+#clientes .container .slider-logos .logos {
+  width: 100%;
+  display: inline-block;
+  margin: 0px 0;
+}
+#clientes .container .slider-logos .logos .fab {
+  margin: 0 10px;
+  width: 12.5%;
+  animation: fade-in 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
+}
+@keyframes slidein {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }/*# sourceMappingURL=style.css.map */
