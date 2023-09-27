@@ -57,6 +57,11 @@ body {
         width: 100%;
         background-color: $negro100;
         color: white;
+        .btn-rosa {
+          background-color: $rosa100;
+          color: white;
+          font-weight: bold;
+        }
         #menu-principal {
             list-style: none;
             font-family: $lexend !important;
@@ -96,6 +101,31 @@ body {
         background-color: $gris100;
         color: white;
     }
+}
+// Menu Mobile
+#menu-desplegable {
+  background-color: $negro100;
+  color: white;
+  #menu-mobile {
+    list-style: none;
+    li {
+      margin-bottom: 1rem;
+      a {
+        text-decoration: none;
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: white;
+        transition: color 1s;
+        &:hover {
+            color: $rosa100;
+        }
+        }
+        #btn-contacto {
+            border: 1px solid $rosa100;
+            border-radius: 3px;
+        }
+    }
+  }
 }
 
 //Titulos

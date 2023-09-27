@@ -19,6 +19,11 @@ body header {
   background-color: #031219;
   color: white;
 }
+body header .btn-rosa {
+  background-color: #FF3D7F;
+  color: white;
+  font-weight: bold;
+}
 body header #menu-principal {
   list-style: none;
   font-family: "Lexend Deca", arial, sans-serif !important;
@@ -56,6 +61,31 @@ body #portafolio {
 body footer {
   background-color: #373B44;
   color: white;
+}
+
+#menu-desplegable {
+  background-color: #031219;
+  color: white;
+}
+#menu-desplegable #menu-mobile {
+  list-style: none;
+}
+#menu-desplegable #menu-mobile li {
+  margin-bottom: 1rem;
+}
+#menu-desplegable #menu-mobile li a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: white;
+  transition: color 1s;
+}
+#menu-desplegable #menu-mobile li a:hover {
+  color: #FF3D7F;
+}
+#menu-desplegable #menu-mobile li #btn-contacto {
+  border: 1px solid #FF3D7F;
+  border-radius: 3px;
 }
 
 h1, h2, h3, h4, h5, h6 {
