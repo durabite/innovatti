@@ -96,6 +96,15 @@ body {
     #portafolio {
         background-color: $negro100;
         color: white;
+        .portadas {
+          border-radius: 5px;
+          border: 2px solid $rosa100;
+          cursor: pointer;
+          transition: border 0.5s;
+          &:hover {
+            border: 2px solid white;
+          }
+        }
     }
     footer {
         background-color: $gris100;
@@ -106,6 +115,16 @@ body {
 #menu-desplegable {
   background-color: $negro100;
   color: white;
+  .btn-close-rosa {
+    color: white;
+    background-color: $rosa100;
+    border: 1px solid $rosa100;
+    border-radius: 3px;
+    &:hover { 
+      border: 1px solid white;
+      background-color: $negro100;
+    }
+  }
   #menu-mobile {
     list-style: none;
     li {
