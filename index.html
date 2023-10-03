@@ -8,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.2.96/css/materialdesignicons.min.css
     ">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
   </head>
   <body>
 
@@ -23,11 +24,11 @@
           <!-- Menu Principal -->
           <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 d-flex justify-content-end d-none d-xxl-block d-xl-block d-lg-block d-md-block">
             <ul id="menu-principal" class="d-flex justify-content-end m-0">
-              <li><a href="#">Nosotros</a></li>
-              <li><a href="#">Clientes</a></li>
-              <li><a href="#">Portafolio</a></li>
-              <li><a href="#">Experiencia</a></li>
-              <li><a href="#" id="btn-contacto" class="p-2 pb-2">Contacto</a></li>
+              <li><a href="#nosotros">Nosotros</a></li>
+              <li><a href="#portafolio">Portafolio</a></li>
+              <li><a href="#clientes">Clientes</a></li>
+              <li><a href="#experiencia">Experiencia</a></li>
+              <li><a href="#contacto" id="btn-contacto" class="p-2 pb-2">Contacto</a></li>
             </ul>
             
           </div>
@@ -54,21 +55,21 @@
               </div>
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img src="image/Slider01.jpg" class="d-block w-100" alt="...">
+                  <img src="image/slider-01.png" class="d-block w-100" alt="...">
                   <div class="carousel-caption d-none d-md-block">
                     <h5 class="display-3 rosa">Experiencias Únicas</h5>
                     <p class="display-6">Lo mas importantes para tus clientes, la experiencia de tu marca.</p>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <img src="image/Slider02.jpg" class="d-block w-100" alt="...">
+                  <img src="image/slider-02.png" class="d-block w-100" alt="...">
                   <div class="carousel-caption d-none d-md-block">
                     <h5 class="display-3 rosa">Montaje y fabricación</h5>
                     <p class="display-6">Desde Exposiciones hasta activaciones.</p>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <img src="image/Slider03.jpg" class="d-block w-100" alt="...">
+                  <img src="image/slider-03.png" class="d-block w-100" alt="...">
                   <div class="carousel-caption d-none d-md-block">
                     <h5 class="display-3 rosa">Embajadores de marca</h5>
                     <p class="display-6">Personal altamente capacitado para la atencion de tus clientes</p>
@@ -97,10 +98,19 @@
           </div>
           <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 mb-2">
             <p>En <b>INNOVATTI</b>, convertimos ideas en experiencias memorables. Como líderes en diseño de eventos, colaboramos estrechamente con marcas destacadas para crear momentos únicos. Nuestro equipo de expertos planifica y ejecuta cada detalle, desde la conceptualización hasta la implementación impecable.</p>
+            <p>Ofrecemos:</p>
+            <ul>
+              <li>Diseño temático personalizado</li>
+              <li>Planificación y gestión integral</li>
+              <li>Producción de alta calidad: escenografía, iluminación, sonido</li>
+              <li>Coordinación de entretenimiento y actividades</li>
+              <li>Estrategias de marketing y promoción</li>
+              <li>Gestión de invitados y registro</li>
+            </ul>
               
           </div>
           <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 mb-2">
-            <img src="image/nosotros.png" class="img-fluid" alt="Nosotros">
+            <img src="image/nosotros.png" class="img-fluid rounded" alt="Nosotros">
           </div>
         </div>
       </div>
@@ -111,65 +121,66 @@
       <div class="row">
         <div class="col-12">
           <h1 class="display-3 text-center mb-3">Portafolio</h1>
+          <p class="text-center">Soluciones Creativas para Clientes Satisfechos</p>
         </div>
       </div>
       <div class="row g-4">
-        <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-sm-12" data-bs-toggle="modal" data-bs-target="#TelcelModal">
+        <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-sm-6" data-bs-toggle="modal" data-bs-target="#TelcelModal">
           <div class="portadas">
             <img src="image/gallery/portadas-portafolio/TelcelP.png" alt="Telcel" class="img-fluid">
           </div>
         </div>
-        <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-sm-12" data-bs-toggle="modal" data-bs-target="#SuraModal">
+        <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-sm-6" data-bs-toggle="modal" data-bs-target="#SuraModal">
           <div class="portadas">
             <img src="image/gallery/portadas-portafolio/SuraP.png" alt="Sura" class="img-fluid">
           </div>
         </div>
-        <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-sm-12" data-bs-toggle="modal" data-bs-target="#CampoAzulModal">
+        <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-sm-6" data-bs-toggle="modal" data-bs-target="#CampoAzulModal">
           <div class="portadas">
             <img src="image/gallery/portadas-portafolio/CampoAzulP.png" alt="Campo Azul" class="img-fluid">
           </div>
         </div>
-        <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-sm-12" data-bs-toggle="modal" data-bs-target="#ChupaChupsModal">
+        <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-sm-6" data-bs-toggle="modal" data-bs-target="#ChupaChupsModal">
           <div class="portadas">
             <img src="image/gallery/portadas-portafolio/ChupaChupsP.png" alt="Chupa Chups" class="img-fluid">
           </div>
         </div>
-        <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-sm-12" data-bs-toggle="modal" data-bs-target="#SkandiaModal">
+        <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-sm-6" data-bs-toggle="modal" data-bs-target="#SkandiaModal">
           <div class="portadas">
             <img src="image/gallery/portadas-portafolio/SkandiaP.png" alt="Skandia" class="img-fluid">
           </div>
         </div>
-        <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-sm-12" data-bs-toggle="modal" data-bs-target="#SueroxModal">
+        <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-sm-6" data-bs-toggle="modal" data-bs-target="#SueroxModal">
           <div class="portadas">
             <img src="image/gallery/portadas-portafolio/SueroxP.png" alt="Suerox" class="img-fluid">
           </div>
         </div>
-        <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-sm-12" data-bs-toggle="modal" data-bs-target="#PalacioDeHierroModal">
+        <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-sm-6" data-bs-toggle="modal" data-bs-target="#PalacioDeHierroModal">
           <div class="portadas">
             <img src="image/gallery/portadas-portafolio/PalacioDeHierroP.png" alt="Palacio de Hierro" class="img-fluid">
           </div>
         </div>
-        <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-sm-12" data-bs-toggle="modal" data-bs-target="#TesoroAzulModal">
+        <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-sm-6" data-bs-toggle="modal" data-bs-target="#TesoroAzulModal">
           <div class="portadas">
             <img src="image/gallery/portadas-portafolio/TesoroAzulP.png" alt="Tesoro Azul" class="img-fluid">
           </div>
         </div>
-        <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-sm-12" data-bs-toggle="modal" data-bs-target="#ShellModal">
+        <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-sm-6" data-bs-toggle="modal" data-bs-target="#ShellModal">
           <div class="portadas">
             <img src="image/gallery/portadas-portafolio/ShellP.png" alt="Shell" class="img-fluid">
           </div>
         </div>
-        <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-sm-12" data-bs-toggle="modal" data-bs-target="#NegroZafiroModal">
+        <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-sm-6" data-bs-toggle="modal" data-bs-target="#NegroZafiroModal">
           <div class="portadas">
             <img src="image/gallery/portadas-portafolio/NegroZafiroP.png" alt="Negro Zafiro" class="img-fluid">
           </div>
         </div>
-        <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-sm-12" data-bs-toggle="modal" data-bs-target="#1940Modal">
+        <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-sm-6" data-bs-toggle="modal" data-bs-target="#1940Modal">
           <div class="portadas">
             <img src="image/gallery/portadas-portafolio/1940P.png" alt="1940" class="img-fluid">
           </div>
         </div>
-        <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-sm-12" data-bs-toggle="modal" data-bs-target="#MrLuchoModal">
+        <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-sm-6" data-bs-toggle="modal" data-bs-target="#MrLuchoModal">
           <div class="portadas">
             <img src="image/gallery/portadas-portafolio/MrLuchoP.png" alt="Mr Lucho" class="img-fluid">
           </div>
@@ -184,6 +195,7 @@
         <div class="row align-items-center h-100">
           <div class="container rounded">
             <h1 class="display-3 text-center mb-3">Clientes</h1>
+            <p class="text-center">Nuestros clientes provienen de diversos sectores y tienen necesidades variadas, las cuales hemos solucionado de manera eficiente.</p>
             <div class="slider-logos">
               <div class="logos">
                 <img src="image/logos/1940.png" alt="" class="fab">
@@ -217,29 +229,30 @@
     </div>
 
   <!-- Experiencia -->
-  <div class="container my-5">
+  <div class="container my-5" id="experiencia">
     <div class="row">
       <div class="col-12">
         <h1 class="display-3 text-center mb-3">Experiencia</h1>
+        <p class="text-center">Idea Centrada en el Cliente, Eventos Impactantes: Tu Éxito, Nuestra Prioridad</p>
       </div>
     </div>
     <div class="row">
       <div class="col-6">
         <p>
-          Somos una agencia BTL 360, conformada por un equipo de
+          Somos una agencia <b>BTL 360</b>, conformada por un equipo de
 profesionales y creativos con el fin de desarrollar nuevas tendencias y brindar soluciones.
         </p>
         <p>
           Siempre buscamos la manera más simple y
-divertida de proyectar tu marca para que sea amada por los
+divertida de proyectar tu <b>marca</b> para que sea amada por los
 consumidores.
         </p>
       </div>
       <div class="col-6">
         <p>
           Conectamos con el público con tu marca, manteniendo un
-vínculo invulnerable entre diseño, imagen e identidad
-corporativa, marketing digital y posicionamiento de marca.
+<b>vínculo</b> invulnerable entre <b>diseño</b>, <b>imagen e identidad
+  corporativa</b>, <b>marketing digital</b> y <b>posicionamiento de marca</b>.
 Trabajamos por y para nuestros clientes. Entregamos a cada
 proyecto todo nuestro talento, nuestra pasión, experiencia y
 creatividad.
@@ -248,13 +261,24 @@ creatividad.
     </div>
     <div class="row">
       <div class="col-6">
-        <img src="image/exp-01.png" alt="" class="img-fluid">
+        <img src="image/exp-01.jpg" alt="" class="img-fluid rounded">
       </div>
       <div class="col-6">
-        <img src="image/exp-01.png" alt="" class="img-fluid">
+        <img src="image/exp-02.jpg" alt="" class="img-fluid rounded">
       </div>
     </div>
   </div>
+
+<!-- Contacto -->
+  <div id="contacto" class="container my-5 py-3">
+    <div class="row">
+      <div class="col-12">
+        <h1 class="display-3 text-center mb-3">Contacto</h1>
+        <p class="text-center">Dejanos ayudarte con la mejor experiencia para tus clientes.</p>
+      </div>
+    </div>
+  </div>
+
 <footer class="mt-5 py-5">
   <div class="container">
     <div class="row">
@@ -275,8 +299,8 @@ creatividad.
     <div>
       <ul id="menu-mobile" class="d-flex-inline">
         <li><a href="#">Nosotros</a></li>
-        <li><a href="#">Clientes</a></li>
         <li><a href="#">Portafolio</a></li>
+        <li><a href="#">Clientes</a></li>
         <li><a href="#">Experiencia</a></li>
         <li><a href="#" id="btn-contacto" class="p-2 pb-2">Contacto</a></li>
       </ul>
@@ -286,38 +310,102 @@ creatividad.
 
 
 <!-- Modal Telcel-->
-<div class="modal fade" id="TelcelModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
+<div class="modal fade" id="TelcelModal" tabindex="-1" aria-labelledby="TelcelModal" aria-hidden="true">
+  <div class="modal-dialog modal-fullscreen">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Telcel</h1>
+        <h1 class="modal-title fs-5 text-center" id="TelcelModal">Telcel</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        ...
+
+        <div class="photo-gallery">
+          <div class="container">
+              <div class="row photos">
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Telcel/Telcel-01.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Telcel/Telcel-01.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Telcel/Telcel-02.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Telcel/Telcel-02.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Telcel/Telcel-03.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Telcel/Telcel-03.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Telcel/Telcel-04.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Telcel/Telcel-04.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Telcel/Telcel-05.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Telcel/Telcel-05.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Telcel/Telcel-06.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Telcel/Telcel-06.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Telcel/Telcel-07.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Telcel/Telcel-07.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Telcel/Telcel-08.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Telcel/Telcel-08.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Telcel/Telcel-09.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Telcel/Telcel-09.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Telcel/Telcel-10.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Telcel/Telcel-10.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Telcel/Telcel-11.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Telcel/Telcel-11.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Telcel/Telcel-12.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Telcel/Telcel-12.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Telcel/Telcel-13.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Telcel/Telcel-13.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Telcel/Telcel-14.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Telcel/Telcel-14.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Telcel/Telcel-15.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Telcel/Telcel-15.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Telcel/Telcel-16.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Telcel/Telcel-16.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Telcel/Telcel-17.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Telcel/Telcel-17.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Telcel/Telcel-18.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Telcel/Telcel-18.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Telcel/Telcel-19.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Telcel/Telcel-19.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Telcel/Telcel-20.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Telcel/Telcel-20.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Telcel/Telcel-21.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Telcel/Telcel-21.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Telcel/Telcel-22.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Telcel/Telcel-22.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Telcel/Telcel-23.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Telcel/Telcel-23.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Telcel/Telcel-24.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Telcel/Telcel-24.jpg"></a></div>
+              </div>
+          </div>
+        </div>
+
+        
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar <i class="mdi mdi-close"></i></button>
       </div>
     </div>
   </div>
 </div>
 
 <!-- Modal Sura-->
-<div class="modal fade" id="SuraModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
+<div class="modal fade" id="SuraModal" tabindex="-1" aria-labelledby="SuraModal" aria-hidden="true">
+  <div class="modal-dialog modal-fullscreen">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Sura</h1>
+        <h1 class="modal-title fs-5" id="SuraModal">Sura</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        ...
+      
+        <div class="photo-gallery">
+          <div class="container">
+              <div class="row photos">
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Sura/Sura-01.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Sura/Sura-01.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Sura/Sura-02.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Sura/Sura-02.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Sura/Sura-03.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Sura/Sura-03.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Sura/Sura-04.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Sura/Sura-04.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Sura/Sura-05.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Sura/Sura-05.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Sura/Sura-06.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Sura/Sura-06.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Sura/Sura-07.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Sura/Sura-07.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Sura/Sura-08.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Sura/Sura-08.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Sura/Sura-09.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Sura/Sura-09.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Sura/Sura-10.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Sura/Sura-10.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Sura/Sura-11.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Sura/Sura-11.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Sura/Sura-12.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Sura/Sura-12.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Sura/Sura-13.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Sura/Sura-13.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Sura/Sura-14.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Sura/Sura-14.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Sura/Sura-15.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Sura/Sura-15.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Sura/Sura-16.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Sura/Sura-16.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Sura/Sura-17.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Sura/Sura-17.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Sura/Sura-18.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Sura/Sura-18.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Sura/Sura-18.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Sura/Sura-18.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Sura/Sura-19.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Sura/Sura-19.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Sura/Sura-20.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Sura/Sura-20.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Sura/Sura-22.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Sura/Sura-22.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Sura/Sura-23.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Sura/Sura-23.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Sura/Sura-24.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Sura/Sura-24.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Sura/Sura-25.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Sura/Sura-25.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Sura/Sura-26.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Sura/Sura-26.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Sura/Sura-27.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Sura/Sura-27.jpg"></a></div>
+              </div>
+          </div>
+      </div>
+
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar <i class="mdi mdi-close"></i></button>
       </div>
     </div>
   </div>
@@ -325,18 +413,42 @@ creatividad.
 
 <!-- Modal Campo Azul-->
 <div class="modal fade" id="CampoAzulModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
+  <div class="modal-dialog modal-fullscreen">
     <div class="modal-content">
       <div class="modal-header">
         <h1 class="modal-title fs-5" id="exampleModalLabel">Campo Azul</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        ...
+        <div class="photo-gallery">
+          <div class="container">
+              <div class="row photos">
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/CampoAzul/CampoAzul-01.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/CampoAzul/CampoAzul-01.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/CampoAzul/CampoAzul-02.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/CampoAzul/CampoAzul-02.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/CampoAzul/CampoAzul-03.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/CampoAzul/CampoAzul-03.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/CampoAzul/CampoAzul-04.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/CampoAzul/CampoAzul-04.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/CampoAzul/CampoAzul-05.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/CampoAzul/CampoAzul-05.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/CampoAzul/CampoAzul-06.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/CampoAzul/CampoAzul-06.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/CampoAzul/CampoAzul-07.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/CampoAzul/CampoAzul-07.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/CampoAzul/CampoAzul-08.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/CampoAzul/CampoAzul-08.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/CampoAzul/CampoAzul-09.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/CampoAzul/CampoAzul-09.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/CampoAzul/CampoAzul-10.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/CampoAzul/CampoAzul-10.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/CampoAzul/CampoAzul-11.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/CampoAzul/CampoAzul-11.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/CampoAzul/CampoAzul-12.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/CampoAzul/CampoAzul-12.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/CampoAzul/CampoAzul-13.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/CampoAzul/CampoAzul-13.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/CampoAzul/CampoAzul-14.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/CampoAzul/CampoAzul-14.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/CampoAzul/CampoAzul-15.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/CampoAzul/CampoAzul-15.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/CampoAzul/CampoAzul-16.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/CampoAzul/CampoAzul-16.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/CampoAzul/CampoAzul-17.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/CampoAzul/CampoAzul-17.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/CampoAzul/CampoAzul-18.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/CampoAzul/CampoAzul-18.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/CampoAzul/CampoAzul-19.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/CampoAzul/CampoAzul-19.jpg"></a></div>
+                  
+              </div>
+          </div>
+        </div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar <i class="mdi mdi-close"></i></button>
       </div>
     </div>
   </div>
@@ -344,18 +456,36 @@ creatividad.
 
 <!-- Modal Chupa Chups-->
 <div class="modal fade" id="ChupaChupsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
+  <div class="modal-dialog modal-fullscreen">
     <div class="modal-content">
       <div class="modal-header">
         <h1 class="modal-title fs-5" id="exampleModalLabel">Chupa Chups</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        ...
+        <div class="photo-gallery">
+          <div class="container">
+              <div class="row photos">
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/ChupaChups/ChupaChups-01.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/ChupaChups/ChupaChups-01.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/ChupaChups/ChupaChups-02.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/ChupaChups/ChupaChups-02.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/ChupaChups/ChupaChups-03.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/ChupaChups/ChupaChups-03.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/ChupaChups/ChupaChups-04.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/ChupaChups/ChupaChups-04.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/ChupaChups/ChupaChups-05.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/ChupaChups/ChupaChups-05.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/ChupaChups/ChupaChups-06.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/ChupaChups/ChupaChups-06.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/ChupaChups/ChupaChups-07.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/ChupaChups/ChupaChups-07.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/ChupaChups/ChupaChups-08.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/ChupaChups/ChupaChups-08.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/ChupaChups/ChupaChups-09.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/ChupaChups/ChupaChups-09.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/ChupaChups/ChupaChups-10.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/ChupaChups/ChupaChups-10.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/ChupaChups/ChupaChups-11.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/ChupaChups/ChupaChups-11.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/ChupaChups/ChupaChups-13.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/ChupaChups/ChupaChups-13.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/ChupaChups/ChupaChups-14.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/ChupaChups/ChupaChups-14.jpg"></a></div>
+                  
+              </div>
+          </div>
+        </div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar <i class="mdi mdi-close"></i></button>
       </div>
     </div>
   </div>
@@ -363,18 +493,29 @@ creatividad.
 
 <!-- Modal Skandia-->
 <div class="modal fade" id="SkandiaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
+  <div class="modal-dialog modal-fullscreen">
     <div class="modal-content">
       <div class="modal-header">
         <h1 class="modal-title fs-5" id="exampleModalLabel">Skandia</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        ...
+        <div class="photo-gallery">
+          <div class="container">
+              <div class="row photos">
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Skandia/Skandia-01.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Skandia/Skandia-01.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Skandia/Skandia-02.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Skandia/Skandia-02.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Skandia/Skandia-03.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Skandia/Skandia-03.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Skandia/Skandia-04.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Skandia/Skandia-04.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Skandia/Skandia-05.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Skandia/Skandia-05.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Skandia/Skandia-06.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Skandia/Skandia-06.jpg"></a></div>
+              
+              </div>
+          </div>
+        </div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar <i class="mdi mdi-close"></i></button>
       </div>
     </div>
   </div>
@@ -382,18 +523,32 @@ creatividad.
 
 <!-- Modal Suerox-->
 <div class="modal fade" id="SueroxModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
+  <div class="modal-dialog modal-fullscreen">
     <div class="modal-content">
       <div class="modal-header">
         <h1 class="modal-title fs-5" id="exampleModalLabel">Suerox</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        ...
+        <div class="photo-gallery">
+          <div class="container">
+              <div class="row photos">
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Suerox/Suerox-01.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Suerox/Suerox-01.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Suerox/Suerox-02.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Suerox/Suerox-02.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Suerox/Suerox-03.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Suerox/Suerox-03.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Suerox/Suerox-04.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Suerox/Suerox-04.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Suerox/Suerox-05.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Suerox/Suerox-05.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Suerox/Suerox-06.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Suerox/Suerox-06.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Suerox/Suerox-07.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Suerox/Suerox-07.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Suerox/Suerox-08.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Suerox/Suerox-08.jpg"></a></div>
+                  
+              
+              </div>
+          </div>
+        </div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar <i class="mdi mdi-close"></i></button>
       </div>
     </div>
   </div>
@@ -401,18 +556,40 @@ creatividad.
 
 <!-- Modal Palacio de Hierro-->
 <div class="modal fade" id="PalacioDeHierroModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
+  <div class="modal-dialog modal-fullscreen">
     <div class="modal-content">
       <div class="modal-header">
         <h1 class="modal-title fs-5" id="exampleModalLabel">Palacio de Hierro</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        ...
+        <div class="photo-gallery">
+          <div class="container">
+              <div class="row photos">
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/PalaciodeHierro/PalacioDeHierro-01.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/PalaciodeHierro/PalacioDeHierro-01.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/PalaciodeHierro/PalacioDeHierro-02.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/PalaciodeHierro/PalacioDeHierro-02.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/PalaciodeHierro/PalacioDeHierro-03.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/PalaciodeHierro/PalacioDeHierro-03.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/PalaciodeHierro/PalacioDeHierro-04.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/PalaciodeHierro/PalacioDeHierro-04.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/PalaciodeHierro/PalacioDeHierro-05.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/PalaciodeHierro/PalacioDeHierro-05.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/PalaciodeHierro/PalacioDeHierro-06.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/PalaciodeHierro/PalacioDeHierro-06.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/PalaciodeHierro/PalacioDeHierro-07.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/PalaciodeHierro/PalacioDeHierro-07.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/PalaciodeHierro/PalacioDeHierro-08.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/PalaciodeHierro/PalacioDeHierro-08.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/PalaciodeHierro/PalacioDeHierro-09.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/PalaciodeHierro/PalacioDeHierro-09.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/PalaciodeHierro/PalacioDeHierro-10.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/PalaciodeHierro/PalacioDeHierro-10.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/PalaciodeHierro/PalacioDeHierro-11.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/PalaciodeHierro/PalacioDeHierro-11.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/PalaciodeHierro/PalacioDeHierro-12.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/PalaciodeHierro/PalacioDeHierro-12.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/PalaciodeHierro/PalacioDeHierro-13.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/PalaciodeHierro/PalacioDeHierro-13.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/PalaciodeHierro/PalacioDeHierro-14.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/PalaciodeHierro/PalacioDeHierro-14.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/PalaciodeHierro/PalacioDeHierro-15.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/PalaciodeHierro/PalacioDeHierro-15.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/PalaciodeHierro/PalacioDeHierro-16.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/PalaciodeHierro/PalacioDeHierro-16.jpg"></a></div>
+                  
+              
+              </div>
+          </div>
+        </div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar <i class="mdi mdi-close"></i></button>
       </div>
     </div>
   </div>
@@ -420,18 +597,36 @@ creatividad.
 
 <!-- Modal Tesoro Azul-->
 <div class="modal fade" id="TesoroAzulModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
+  <div class="modal-dialog modal-fullscreen">
     <div class="modal-content">
       <div class="modal-header">
         <h1 class="modal-title fs-5" id="exampleModalLabel">Tesoro Azul</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        ...
+        <div class="photo-gallery">
+          <div class="container">
+              <div class="row photos">
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/TesoroAzul/TesoroAzul-01.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/TesoroAzul/TesoroAzul-01.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/TesoroAzul/TesoroAzul-02.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/TesoroAzul/TesoroAzul-02.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/TesoroAzul/TesoroAzul-03.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/TesoroAzul/TesoroAzul-03.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/TesoroAzul/TesoroAzul-04.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/TesoroAzul/TesoroAzul-04.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/TesoroAzul/TesoroAzul-05.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/TesoroAzul/TesoroAzul-05.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/TesoroAzul/TesoroAzul-06.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/TesoroAzul/TesoroAzul-06.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/TesoroAzul/TesoroAzul-07.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/TesoroAzul/TesoroAzul-07.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/TesoroAzul/TesoroAzul-08.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/TesoroAzul/TesoroAzul-08.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/TesoroAzul/TesoroAzul-09.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/TesoroAzul/TesoroAzul-09.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/TesoroAzul/TesoroAzul-10.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/TesoroAzul/TesoroAzul-10.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/TesoroAzul/TesoroAzul-11.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/TesoroAzul/TesoroAzul-11.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/TesoroAzul/TesoroAzul-12.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/TesoroAzul/TesoroAzul-12.jpg"></a></div>
+                  
+              
+              </div>
+          </div>
+        </div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar <i class="mdi mdi-close"></i></button>
       </div>
     </div>
   </div>
@@ -439,18 +634,37 @@ creatividad.
 
 <!-- Modal Shell-->
 <div class="modal fade" id="ShellModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
+  <div class="modal-dialog modal-fullscreen">
     <div class="modal-content">
       <div class="modal-header">
         <h1 class="modal-title fs-5" id="exampleModalLabel">Shell</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        ...
+        <div class="photo-gallery">
+          <div class="container">
+              <div class="row photos">
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Shell/Shell-01.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Shell/Shell-01.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Shell/Shell-02.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Shell/Shell-02.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Shell/Shell-03.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Shell/Shell-03.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Shell/Shell-04.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Shell/Shell-04.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Shell/Shell-05.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Shell/Shell-05.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Shell/Shell-06.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Shell/Shell-06.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Shell/Shell-07.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Shell/Shell-07.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Shell/Shell-08.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Shell/Shell-08.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Shell/Shell-09.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Shell/Shell-09.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Shell/Shell-10.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Shell/Shell-10.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Shell/Shell-11.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Shell/Shell-11.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Shell/Shell-12.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Shell/Shell-12.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/Shell/Shell-13.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/Shell/Shell-13.jpg"></a></div>
+                  
+              
+              </div>
+          </div>
+        </div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar <i class="mdi mdi-close"></i></button>
       </div>
     </div>
   </div>
@@ -458,18 +672,36 @@ creatividad.
 
 <!-- Modal Negro Zafiro-->
 <div class="modal fade" id="NegroZafiroModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
+  <div class="modal-dialog  modal-fullscreen">
     <div class="modal-content">
       <div class="modal-header">
         <h1 class="modal-title fs-5" id="exampleModalLabel">Negro Zafiro</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        ...
+        <div class="photo-gallery">
+          <div class="container">
+              <div class="row photos">
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/NegroZafiro/NegroZafiro-01.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/NegroZafiro/NegroZafiro-01.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/NegroZafiro/NegroZafiro-02.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/NegroZafiro/NegroZafiro-02.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/NegroZafiro/NegroZafiro-03.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/NegroZafiro/NegroZafiro-03.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/NegroZafiro/NegroZafiro-04.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/NegroZafiro/NegroZafiro-04.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/NegroZafiro/NegroZafiro-05.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/NegroZafiro/NegroZafiro-05.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/NegroZafiro/NegroZafiro-06.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/NegroZafiro/NegroZafiro-06.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/NegroZafiro/NegroZafiro-07.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/NegroZafiro/NegroZafiro-07.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/NegroZafiro/NegroZafiro-08.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/NegroZafiro/NegroZafiro-08.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/NegroZafiro/NegroZafiro-09.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/NegroZafiro/NegroZafiro-09.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/NegroZafiro/NegroZafiro-10.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/NegroZafiro/NegroZafiro-10.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/NegroZafiro/NegroZafiro-11.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/NegroZafiro/NegroZafiro-11.jpg"></a></div>
+                  
+                  
+              
+              </div>
+          </div>
+        </div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar <i class="mdi mdi-close"></i></button>
       </div>
     </div>
   </div>
@@ -477,18 +709,39 @@ creatividad.
 
 <!-- Modal 1940-->
 <div class="modal fade" id="1940Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
+  <div class="modal-dialog modal-fullscreen">
     <div class="modal-content">
       <div class="modal-header">
         <h1 class="modal-title fs-5" id="exampleModalLabel">1940</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        ...
+        <div class="photo-gallery">
+          <div class="container">
+              <div class="row photos">
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/1490/1490-01.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/1490/1490-01.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/1490/1490-02.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/1490/1490-02.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/1490/1490-03.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/1490/1490-03.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/1490/1490-04.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/1490/1490-04.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/1490/1490-05.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/1490/1490-05.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/1490/1490-06.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/1490/1490-06.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/1490/1490-07.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/1490/1490-07.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/1490/1490-08.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/1490/1490-08.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/1490/1490-09.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/1490/1490-09.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/1490/1490-10.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/1490/1490-10.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/1490/1490-11.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/1490/1490-11.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/1490/1490-12.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/1490/1490-12.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/1490/1490-13.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/1490/1490-13.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/1490/1490-14.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/1490/1490-14.jpg"></a></div>
+                  
+                  
+              
+              </div>
+          </div>
+        </div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar <i class="mdi mdi-close"></i></button>
       </div>
     </div>
   </div>
@@ -496,23 +749,39 @@ creatividad.
 
 <!-- Modal Mr Lucho-->
 <div class="modal fade" id="MrLuchoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
+  <div class="modal-dialog modal-fullscreen">
     <div class="modal-content">
       <div class="modal-header">
         <h1 class="modal-title fs-5" id="exampleModalLabel">Mr Lucho</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        ...
+        <div class="photo-gallery">
+          <div class="container">
+              <div class="row photos">
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/MrLucho/MrLucho-01.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/MrLucho/MrLucho-01.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/MrLucho/MrLucho-02.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/MrLucho/MrLucho-02.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/MrLucho/MrLucho-03.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/MrLucho/MrLucho-03.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/MrLucho/MrLucho-04.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/MrLucho/MrLucho-04.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/MrLucho/MrLucho-05.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/MrLucho/MrLucho-05.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/MrLucho/MrLucho-06.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/MrLucho/MrLucho-06.jpg"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="image/gallery/MrLucho/MrLucho-07.jpg" data-lightbox="photos"><img class="img-fluid" src="image/gallery/MrLucho/MrLucho-07.jpg"></a></div>
+                  
+              
+              </div>
+          </div>
+        </div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar <i class="mdi mdi-close"></i></button>
       </div>
     </div>
   </div>
 </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
   </body>
 </html>

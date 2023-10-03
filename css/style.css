@@ -50,7 +50,7 @@ body header #menu-principal li #btn-contacto {
 body .slider-principal {
   background-color: black;
 }
-body #nosotros {
+body #nosotros, body #contacto {
   border: 1px solid #FF3D7F;
   border-radius: 6px;
 }
@@ -146,4 +146,60 @@ h1, h2, h3, h4, h5, h6 {
   100% {
     opacity: 1;
   }
+}
+
+.modal .modal-content .modal-header {
+  color: #031219;
+  background-color: #FF6499;
+}
+.modal .modal-content .modal-body {
+  background-color: #354147;
+}
+.modal .modal-content .modal-footer {
+  background-color: #354147;
+}
+
+.photo-gallery {
+  color: #031219;
+  background-color: #354147;
+}
+
+.photo-gallery p {
+  color: #FF3D7F;
+}
+
+.photo-gallery h2 {
+  font-weight: bold;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  color: inherit;
+}
+
+@media (max-width: 767px) {
+  .photo-gallery h2 {
+    margin-bottom: 25px;
+    padding-top: 25px;
+    font-size: 24px;
+  }
+}
+.photo-gallery .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto 40px;
+}
+
+.photo-gallery .intro p {
+  margin-bottom: 0;
+}
+
+.photo-gallery .photos {
+  padding-bottom: 20px;
+}
+
+.photo-gallery .item {
+  padding-bottom: 30px;
+}
+
+.lb-data {
+  display: none;
 }/*# sourceMappingURL=style.css.map */
