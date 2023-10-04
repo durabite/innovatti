@@ -202,4 +202,22 @@ h1, h2, h3, h4, h5, h6 {
 
 .lb-data {
   display: none;
+}
+
+#nosotros-link, #portafolio-link, #clientes-link, #experiencia-link, #contacto-link {
+  width: 100%;
+  height: 80px;
+}
+
+.texto-titulos-modales {
+  color: white;
+  text-transform: uppercase;
+}
+
+.redes-sociales li {
+  color: white;
+}
+.redes-sociales li a {
+  color: white;
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */
