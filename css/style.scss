@@ -256,7 +256,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 //Links
- #nosotros-link, #portafolio-link, #clientes-link, #experiencia-link, #contacto-link{
+ #nosotros-link, #portafolio-link, #clientes-link, #experiencia-link, #contacto-link, #servicios-link{
   width: 100%;
   height: 80px;
 }
@@ -274,3 +274,27 @@ h1, h2, h3, h4, h5, h6 {
     }
   }
 } 
+
+#descarga {
+  color: red;
+  text-decoration: none;
+  background-color: #f9b8b2;
+  border: 1px solid red;
+  padding: 8px;
+  width: 500px;
+  border-radius: 3px;
+  transition: background-color 0.5s;
+  &:hover {
+    background-color: white;
+  }
+  img {
+    width: 24px;
+  }
+}
+.link {
+  color: $rosa100;
+  a {
+    color: $rosa100;
+    text-decoration: none;
+  }
+}

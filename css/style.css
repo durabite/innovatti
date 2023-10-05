@@ -204,7 +204,7 @@ h1, h2, h3, h4, h5, h6 {
   display: none;
 }
 
-#nosotros-link, #portafolio-link, #clientes-link, #experiencia-link, #contacto-link {
+#nosotros-link, #portafolio-link, #clientes-link, #experiencia-link, #contacto-link, #servicios-link {
   width: 100%;
   height: 80px;
 }
@@ -219,5 +219,30 @@ h1, h2, h3, h4, h5, h6 {
 }
 .redes-sociales li a {
   color: white;
+  text-decoration: none;
+}
+
+#descarga {
+  color: red;
+  text-decoration: none;
+  background-color: #f9b8b2;
+  border: 1px solid red;
+  padding: 8px;
+  width: 500px;
+  border-radius: 3px;
+  transition: background-color 0.5s;
+}
+#descarga:hover {
+  background-color: white;
+}
+#descarga img {
+  width: 24px;
+}
+
+.link {
+  color: #FF3D7F;
+}
+.link a {
+  color: #FF3D7F;
   text-decoration: none;
 }/*# sourceMappingURL=style.css.map */
