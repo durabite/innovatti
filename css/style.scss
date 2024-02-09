@@ -52,44 +52,55 @@ b {
 }
 body {
     font-family: $raleway;
-    background-color: $gris-sup80;
+    background-color: $negro100 !important;
     header {
-        background-color: $#120c0cbf;
-        color: white;
-        border: 1px solid $rosa100;
-        border-radius: 8px;
-        overflow: hidden;
-        .btn-rosa {
-          background-color: $rosa100;
-          color: white;
-          font-weight: bold;
-        }
-        #menu-principal {
-            list-style: none;
-            font-family: $lexend !important;
-            text-transform: uppercase;
-            li {
-                display: inline;
-                margin-left: 20px;
-                a {
-                    text-decoration: none;
-                    font-size: 1.2rem;
-                    font-weight: 400;
-                    color: white;
-                    transition: color 1s;
-                    &:hover {
-                        color: $rosa100;
-                    }
+      border: 1px solid $rosa100;
+      border-radius: 8px;
+      background-color: #031219d5;
+      position: fixed;
+      #logo {
+        display: inline-block;
+        box-sizing: content-box;
+      }
+      #menu-principal {
+        list-style: none;
+        font-family: $lexend !important;
+        text-transform: uppercase;
+        li {
+            display: inline;
+            margin-left: 20px;
+            a {
+                text-decoration: none;
+                font-size: 1.2rem;
+                font-weight: 400;
+                color: white;
+                transition: color 1s;
+                &:hover {
+                    color: $rosa100;
                 }
-                #btn-contacto {
-                    border: 1px solid $rosa100;
-                    border-radius: 3px;
-                }
+            }
+            #btn-contacto {
+                border: 1px solid $rosa100;
+                border-radius: 3px;
             }
         }
     }
-    .slider-principal {
-        background-color: black;
+  }
+    #seccion-a {
+      width: 100%;
+      height: 100vh;
+      padding-top: 20px;
+      background: rgb(3,18,25);
+      background: -moz-linear-gradient(180deg, rgba(3,18,25,1) 25%, rgba(65,17,37,1) 100%);
+      background: -webkit-linear-gradient(180deg, rgba(3,18,25,1) 25%, rgba(65,17,37,1) 100%);
+      background: linear-gradient(180deg, rgba(3,18,25,1) 25%, rgba(65,17,37,1) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#031219",endColorstr="#411125",GradientType=1);
+      .slider {
+        border: 1px solid $rosa100;
+        background-color: $negro100;
+        border-radius: 8px;
+        overflow: hidden;
+      }
     }
     #nosotros, #contacto{
         border: 1px solid $rosa100;

@@ -12,19 +12,17 @@ b {
 
 body {
   font-family: "Raleway", arial, sans-serif;
-  background-color: #E1E1E0;
+  background-color: #031219 !important;
 }
 body header {
-  background-color: #031219;
-  color: white;
   border: 1px solid #FF3D7F;
   border-radius: 8px;
-  overflow: hidden;
+  background-color: rgba(3, 18, 25, 0.8352941176);
+  position: fixed;
 }
-body header .btn-rosa {
-  background-color: #FF3D7F;
-  color: white;
-  font-weight: bold;
+body header #logo {
+  display: inline-block;
+  box-sizing: content-box;
 }
 body header #menu-principal {
   list-style: none;
@@ -49,8 +47,19 @@ body header #menu-principal li #btn-contacto {
   border: 1px solid #FF3D7F;
   border-radius: 3px;
 }
-body .slider-principal {
-  background-color: black;
+body #seccion-a {
+  width: 100%;
+  height: 100vh;
+  padding-top: 20px;
+  background: rgb(3, 18, 25);
+  background: linear-gradient(180deg, rgb(3, 18, 25) 25%, rgb(65, 17, 37) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#031219",endColorstr="#411125",GradientType=1);
+}
+body #seccion-a .slider {
+  border: 1px solid #FF3D7F;
+  background-color: #031219;
+  border-radius: 8px;
+  overflow: hidden;
 }
 body #nosotros, body #contacto {
   border: 1px solid #FF3D7F;
