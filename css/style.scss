@@ -54,7 +54,8 @@ body {
     font-family: $raleway;
     background-color: $negro100 !important;
     header {
-      border: 1px solid $rosa100;
+      border: 1px solid  transparent;
+      border-image: linear-gradient(to bottom right, $rosa100 0%, $negro100 50%) 1;
       border-radius: 8px;
       background-color: #031219d5;
       position: fixed;
@@ -96,10 +97,7 @@ body {
       background: linear-gradient(180deg, rgba(3,18,25,1) 25%, rgba(65,17,37,1) 100%);
       filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#031219",endColorstr="#411125",GradientType=1);
       .slider {
-        border: 1px solid $rosa100;
         background-color: $negro100;
-        border-radius: 8px;
-        overflow: hidden;
       }
     }
     #nosotros, #contacto{

@@ -15,7 +15,9 @@ body {
   background-color: #031219 !important;
 }
 body header {
-  border: 1px solid #FF3D7F;
+  border: 1px solid transparent;
+  -o-border-image: linear-gradient(to bottom right, #FF3D7F 0%, #031219 50%) 1;
+     border-image: linear-gradient(to bottom right, #FF3D7F 0%, #031219 50%) 1;
   border-radius: 8px;
   background-color: rgba(3, 18, 25, 0.8352941176);
   position: fixed;
@@ -56,10 +58,7 @@ body #seccion-a {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#031219",endColorstr="#411125",GradientType=1);
 }
 body #seccion-a .slider {
-  border: 1px solid #FF3D7F;
   background-color: #031219;
-  border-radius: 8px;
-  overflow: hidden;
 }
 body #nosotros, body #contacto {
   border: 1px solid #FF3D7F;
