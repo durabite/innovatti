@@ -14,38 +14,37 @@ body {
   font-family: "Raleway", arial, sans-serif;
   background-color: #031219 !important;
 }
-body header {
+body .header {
   border: 1px solid transparent;
   -o-border-image: linear-gradient(to bottom right, #FF3D7F 0%, #031219 50%) 1;
      border-image: linear-gradient(to bottom right, #FF3D7F 0%, #031219 50%) 1;
   border-radius: 8px;
   background-color: rgba(3, 18, 25, 0.8352941176);
-  position: fixed;
 }
-body header #logo {
+body .header #logo {
   display: inline-block;
   box-sizing: content-box;
 }
-body header #menu-principal {
+body .header #menu-principal {
   list-style: none;
   font-family: "Lexend Deca", arial, sans-serif !important;
   text-transform: uppercase;
 }
-body header #menu-principal li {
+body .header #menu-principal li {
   display: inline;
   margin-left: 20px;
 }
-body header #menu-principal li a {
+body .header #menu-principal li a {
   text-decoration: none;
   font-size: 1.2rem;
   font-weight: 400;
   color: white;
   transition: color 1s;
 }
-body header #menu-principal li a:hover {
+body .header #menu-principal li a:hover {
   color: #FF3D7F;
 }
-body header #menu-principal li #btn-contacto {
+body .header #menu-principal li #btn-contacto {
   border: 1px solid #FF3D7F;
   border-radius: 3px;
 }

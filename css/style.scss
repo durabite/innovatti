@@ -45,20 +45,19 @@ $info: #38C9EE;
 $lexend: "Lexend Deca", arial, sans-serif; 
 $raleway: "Raleway", arial, sans-serif;
 b {
-    color: $rosa100;
+  color: $rosa100;
 } 
 .rosa {
-    color: $rosa100 !important;
+  color: $rosa100 !important;
 }
 body {
     font-family: $raleway;
     background-color: $negro100 !important;
-    header {
+    .header {
       border: 1px solid  transparent;
       border-image: linear-gradient(to bottom right, $rosa100 0%, $negro100 50%) 1;
       border-radius: 8px;
       background-color: #031219d5;
-      position: fixed;
       #logo {
         display: inline-block;
         box-sizing: content-box;
@@ -71,18 +70,18 @@ body {
             display: inline;
             margin-left: 20px;
             a {
-                text-decoration: none;
-                font-size: 1.2rem;
-                font-weight: 400;
-                color: white;
-                transition: color 1s;
-                &:hover {
-                    color: $rosa100;
-                }
+              text-decoration: none;
+              font-size: 1.2rem;
+              font-weight: 400;
+              color: white;
+              transition: color 1s;
+              &:hover {
+                color: $rosa100;
+              }
             }
             #btn-contacto {
-                border: 1px solid $rosa100;
-                border-radius: 3px;
+              border: 1px solid $rosa100;
+              border-radius: 3px;
             }
         }
     }
@@ -101,25 +100,25 @@ body {
       }
     }
     #nosotros, #contacto{
-        border: 1px solid $rosa100;
-        border-radius: 6px;
+      border: 1px solid $rosa100;
+      border-radius: 6px;
     }
     #portafolio {
-        background-color: $negro100;
-        color: white;
-        .portadas {
-          border-radius: 5px;
-          border: 2px solid $rosa100;
-          cursor: pointer;
-          transition: border 0.5s;
-          &:hover {
-            border: 2px solid white;
-          }
+      background-color: $negro100;
+      color: white;
+      .portadas {
+        border-radius: 5px;
+        border: 2px solid $rosa100;
+        cursor: pointer;
+        transition: border 0.5s;
+        &:hover {
+          border: 2px solid white;
         }
+      }
     }
     footer {
-        background-color: $gris100;
-        color: white;
+      background-color: $gris100;
+      color: white;
     }
 }
 // Menu Mobile
@@ -147,12 +146,12 @@ body {
         color: white;
         transition: color 1s;
         &:hover {
-            color: $rosa100;
+          color: $rosa100;
         }
         }
         #btn-contacto {
-            border: 1px solid $rosa100;
-            border-radius: 3px;
+          border: 1px solid $rosa100;
+          border-radius: 3px;
         }
     }
   }
@@ -160,7 +159,7 @@ body {
 
 //Titulos
 h1, h2, h3, h4, h5, h6 {
-    font-family: $lexend;
+  font-family: $lexend;
 }
 
 //Logo Slider
@@ -176,10 +175,10 @@ h1, h2, h3, h4, h5, h6 {
             display: inline-block;
             margin: 0px 0;
             .fab {
-                margin: 0 10px;
+              margin: 0 10px;
               width: calc(100% / 8);
               animation: fade-in 0.5s 
-                cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
+              cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
             }
           }
         }
