@@ -55,8 +55,7 @@ body {
     background-color: $negro100 !important;
     .header {
       border: 1px solid  transparent;
-      border-image: linear-gradient(to bottom right, $rosa100 0%, $negro100 50%) 1;
-      border-radius: 8px;
+      border-image: linear-gradient(to bottom, $rosa100 0%, transparent 50%) 1;
       background-color: #031219d5;
       #logo {
         display: inline-block;
@@ -71,17 +70,24 @@ body {
             margin-left: 20px;
             a {
               text-decoration: none;
-              font-size: 1.2rem;
+              font-size: 1.1rem;
               font-weight: 400;
               color: white;
-              transition: color 1s;
+              transition: color 0.5s;
               &:hover {
                 color: $rosa100;
               }
             }
             #btn-contacto {
-              border: 1px solid $rosa100;
               border-radius: 3px;
+              border: 1px solid $rosa100;
+              background: transparent;
+              color: $rosa100;
+              transition: all 0.5s;
+              &:hover {
+                background: $rosa100;
+                color: white;
+              }
             }
         }
     }
@@ -95,13 +101,12 @@ body {
       background: -webkit-linear-gradient(180deg, rgba(3,18,25,1) 25%, rgba(65,17,37,1) 100%);
       background: linear-gradient(180deg, rgba(3,18,25,1) 25%, rgba(65,17,37,1) 100%);
       filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#031219",endColorstr="#411125",GradientType=1);
-      .slider {
-        background-color: $negro100;
-      }
     }
+
     #nosotros, #contacto{
       border: 1px solid $rosa100;
       border-radius: 6px;
+      color: white;
     }
     #portafolio {
       background-color: $negro100;
