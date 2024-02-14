@@ -50,6 +50,9 @@ b {
 .rosa {
   color: $rosa100 !important;
 }
+.bg-claro {
+  background-color: $gris-sup100;
+}
 body {
     font-family: $raleway;
     background-color: $negro100 !important;
@@ -102,8 +105,11 @@ body {
       background: linear-gradient(180deg, rgba(3,18,25,1) 25%, rgba(65,17,37,1) 100%);
       filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#031219",endColorstr="#411125",GradientType=1);
     }
-
-    #nosotros, #contacto{
+  #nosotros {
+    background-color: white;
+    color: $negro100;
+  }
+    #contacto{
       border: 1px solid $rosa100;
       border-radius: 6px;
       color: white;
