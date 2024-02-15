@@ -67,7 +67,7 @@ body #seccion-a {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#031219",endColorstr="#411125",GradientType=1);
 }
 body #nosotros {
-  background-color: white;
+  background-color: #F0F0EF;
   color: #031219;
 }
 body #contacto {
