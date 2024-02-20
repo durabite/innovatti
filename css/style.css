@@ -96,7 +96,8 @@ body #servicios {
   color: white;
 }
 body #servicios .carta-servicios {
-  background-color: #354147;
+  background-color: rgba(40, 40, 40, 0.5);
+  border: 1px solid #AFB1B4;
   border-radius: 8px;
 }
 body #experiencia {

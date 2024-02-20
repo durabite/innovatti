@@ -134,7 +134,8 @@ body {
   #servicios {
     color: white;
     .carta-servicios {
-      background-color: $negro80;
+      background-color: rgba(40, 40, 40, 0.5);
+      border: 1px solid $gris40;
       border-radius: 8px;
     }
   }
