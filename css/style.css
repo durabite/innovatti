@@ -60,11 +60,15 @@ body .header #menu-principal li #btn-contacto:hover {
 }
 body #seccion-a {
   width: 100%;
-  height: 100vh;
   padding-top: 20px;
   background: rgb(3, 18, 25);
   background: linear-gradient(180deg, rgb(3, 18, 25) 25%, rgb(65, 17, 37) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#031219",endColorstr="#411125",GradientType=1);
+}
+body #seccion-a #hero-section {
+  background-color: rgba(3, 18, 25, 0.8352941176);
+  color: white;
+  border: 1px solid #FF3D7F;
 }
 body #nosotros {
   background-color: #F0F0EF;
