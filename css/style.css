@@ -18,53 +18,82 @@ body {
   font-family: "Raleway", arial, sans-serif;
   background-color: #031219 !important;
 }
-body .header {
-  border: 1px solid transparent;
-  -o-border-image: linear-gradient(to bottom, #FF3D7F 0%, transparent 50%) 1;
-     border-image: linear-gradient(to bottom, #FF3D7F 0%, transparent 50%) 1;
-  background-color: rgba(3, 18, 25, 0.8352941176);
+body #menu {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
 }
-body .header #logo {
-  display: inline-block;
-  box-sizing: content-box;
-}
-body .header #menu-principal {
+body #menu #menu-principal {
   list-style: none;
   font-family: "Lexend Deca", arial, sans-serif !important;
   text-transform: uppercase;
 }
-body .header #menu-principal li {
+body #menu #menu-principal li {
   display: inline;
   margin-left: 20px;
 }
-body .header #menu-principal li a {
+body #menu #menu-principal li a {
   text-decoration: none;
   font-size: 1.1rem;
   font-weight: 400;
   color: white;
   transition: color 0.5s;
 }
-body .header #menu-principal li a:hover {
+body #menu #menu-principal li a:hover {
   color: #FF3D7F;
 }
-body .header #menu-principal li #btn-contacto {
+body #menu #menu-principal li #btn-contacto {
   border-radius: 3px;
   border: 1px solid #FF3D7F;
   background: transparent;
   color: #FF3D7F;
   transition: all 0.5s;
 }
-body .header #menu-principal li #btn-contacto:hover {
+body #menu #menu-principal li #btn-contacto:hover {
   background: #FF3D7F;
   color: white;
 }
-body #seccion-a {
+body #primer {
   width: 100%;
-  height: 100vh;
-  padding-top: 20px;
+  height: 50vh;
   background: rgb(3, 18, 25);
   background: linear-gradient(180deg, rgb(3, 18, 25) 25%, rgb(65, 17, 37) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#031219",endColorstr="#411125",GradientType=1);
+}
+body #primer #segundo {
+  width: 100%;
+  height: 100%;
+  background-image: url(../image/giphy.gif);
+  background-repeat: no-repeat;
+  background-size: 150%;
+  opacity: 0.15;
+  background-position: center center;
+}
+body .header {
+  border: 1px solid #FF3D7F;
+  border-radius: 4px;
+  background-color: rgba(3, 18, 25, 0.8352941176);
+}
+body .header #logo {
+  display: inline-block;
+  box-sizing: content-box;
+}
+body #seccion-a {
+  width: 100%;
+  height: 75vh;
+  background: url(../image/giphy.gif);
+  opacity: 0.25;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  /*
+  background: rgb(3,18,25);
+  background: -moz-linear-gradient(180deg, rgba(3,18,25,1) 25%, rgba(65,17,37,1) 100%);
+  background: -webkit-linear-gradient(180deg, rgba(3,18,25,1) 25%, rgba(65,17,37,1) 100%);
+  background: linear-gradient(180deg, rgba(3,18,25,1) 25%, rgba(65,17,37,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#031219",endColorstr="#411125",GradientType=1);
+  */
 }
 body #nosotros {
   background-color: #F0F0EF;

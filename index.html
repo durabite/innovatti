@@ -14,7 +14,7 @@
 
 <body>
   <!-- Header -->
-  <div class="sticky-top container my-3">
+  <div class="container my-3" id="menu">
     <div class="row">
       <div class="header d-flex align-items-center p-3">
 
@@ -31,9 +31,8 @@
         class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 d-flex justify-content-end d-none d-xxl-block d-xl-block d-lg-block d-md-block">
         <ul id="menu-principal" class="d-flex justify-content-end m-0">
           <li><a href="#nosotros-link">Nosotros</a></li>
-          <li><a href="#portafolio-link">Portafolio</a></li>
           <li><a href="#servicios-link">Servicios</a></li>
-          <li><a href="#experiencia-link">Experiencia</a></li>
+          <li><a href="#portafolio-link">Portafolio</a></li>
           <li><a href="#contacto-link" id="btn-contacto" class="p-2 pb-2">Contacto</a></li>
         </ul>
       </div>
@@ -46,60 +45,8 @@
     </div>
     </div>
   </div>
-
-  <div id="seccion-a">
-
-    <!-- Slider -->
-
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <div id="carouselExampleCaptions" class="carousel slide">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="image/slider-01.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5 class="display-3 rosa">Experiencias Únicas</h5>
-                  <p class="display-6">Lo mas importantes para tus clientes, la experiencia de tu marca.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="image/slider-02.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5 class="display-3 rosa">Montaje y fabricación</h5>
-                  <p class="display-6">Desde Exposiciones hasta activaciones.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="image/slider-03.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5 class="display-3 rosa">Embajadores de marca</h5>
-                  <p class="display-6">Personal altamente capacitado para la atencion de tus clientes</p>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-              data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-              data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
+  <div id="primer">
+    <div id="segundo"></div>
   </div>
 
   <!-- Nosotros -->
@@ -132,108 +79,36 @@
     </div>
   </div>
 
-  <!-- Portafolio -->
-  <div id="portafolio" class="py-3">
+  <!-- Servicios -->
+  <div id="servicios" class="py-3">
     <div class="container py-3">
       <div class="row">
         <div class="col-12">
-          <p class="display-1 text-center">Portafolio</p>
-          <h5 class="text-center mb-4">Soluciones <b>Creativas</b> para Clientes Satisfechos</h5>
+          <p class="display-1 text-center">Servicios</p>
+          <h5 class="text-center mb-4">Al ser una <b>agencia 360</b>, contamos con los siguientes servicios</h5>
         </div>
       </div>
 
-      <div class="row g-4">
-
-        <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-sm-6" data-bs-toggle="modal"
-          data-bs-target="#MrLuchoModal">
-          <div class="portadas">
-            <img src="image/logos/color/1940.png" alt="Mr Lucho" class="img-fluid">
-          </div>
+      <div class="row">
+        <div class="col">
+          <img src="image/cc.png" alt="" class="img-fluid rounded">
         </div>
-
-        <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-sm-6" data-bs-toggle="modal"
-          data-bs-target="#MrLuchoModal">
-          <div class="portadas">
-            <img src="image/logos/color/Campo-Azul.png" alt="Mr Lucho" class="img-fluid">
-          </div>
+        <div class="col">
+          <img src="image/stands.png" alt="" class="img-fluid rounded">
         </div>
-
-        <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-sm-6" data-bs-toggle="modal"
-          data-bs-target="#MrLuchoModal">
-          <div class="portadas">
-            <img src="image/logos/color/Chupa-Chups.png" alt="Mr Lucho" class="img-fluid">
-          </div>
+        <div class="col">
+          <img src="image/mobiliario.png" alt="" class="img-fluid rounded">
         </div>
-
-        <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-sm-6" data-bs-toggle="modal"
-          data-bs-target="#MrLuchoModal">
-          <div class="portadas">
-            <img src="image/logos/color/Mr-Lucho.png" alt="Mr Lucho" class="img-fluid">
-          </div>
+        <div class="col">
+          <img src="image/edecania.png" alt="" class="img-fluid rounded">
         </div>
-
-        <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-sm-6" data-bs-toggle="modal"
-          data-bs-target="#MrLuchoModal">
-          <div class="portadas">
-            <img src="image/logos/color/Negro-Zafiro.png" alt="Mr Lucho" class="img-fluid">
-          </div>
+        <div class="col">
+          <img src="image/dm.png" alt="" class="img-fluid rounded">
         </div>
-
-        <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-sm-6" data-bs-toggle="modal"
-          data-bs-target="#MrLuchoModal">
-          <div class="portadas">
-            <img src="image/logos/color/Palacio-de-Hierro.png" alt="Mr Lucho" class="img-fluid">
-          </div>
-        </div>
-
-        <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-sm-6" data-bs-toggle="modal"
-          data-bs-target="#MrLuchoModal">
-          <div class="portadas">
-            <img src="image/logos/color/Shell-Helix.png" alt="Mr Lucho" class="img-fluid">
-          </div>
-        </div>
-
-        <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-sm-6" data-bs-toggle="modal"
-          data-bs-target="#MrLuchoModal">
-          <div class="portadas">
-            <img src="image/logos/color/Skandia.png" alt="Mr Lucho" class="img-fluid">
-          </div>
-        </div>
-
-        <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-sm-6" data-bs-toggle="modal"
-          data-bs-target="#MrLuchoModal">
-          <div class="portadas">
-            <img src="image/logos/color/Suerox.png" alt="Mr Lucho" class="img-fluid">
-          </div>
-        </div>
-
-        <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-sm-6" data-bs-toggle="modal"
-          data-bs-target="#MrLuchoModal">
-          <div class="portadas">
-            <img src="image/logos/color/Sura.png" alt="Mr Lucho" class="img-fluid">
-          </div>
-        </div>
-
-        <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-sm-6" data-bs-toggle="modal"
-          data-bs-target="#MrLuchoModal">
-          <div class="portadas">
-            <img src="image/logos/color/telcel.png" alt="Mr Lucho" class="img-fluid">
-          </div>
-        </div>
-
-          <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-sm-6">
-            <div class="portadas">
-              <a href="portafolio/telcel.html">
-                <img src="image/logos/color/Tesoro-Azul.png" alt="Mr Lucho" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
       </div>
-
     </div>
   </div>
-
+  
   <!-- Clientes -->
   <div id="clientes" class="py-3">
     <div class="container py-3">
@@ -274,89 +149,112 @@
     </div>
   </div>
 
-  <!-- Servicios -->
-  <div id="servicios" class="py-3">
+  <!-- Portafolio -->
+  <div id="portafolio" class="py-3">
     <div class="container py-3">
       <div class="row">
         <div class="col-12">
-          <p class="display-1 text-center">Servicios</p>
-          <h5 class="text-center">Al ser una<b>agencia 360</b>, contamos con los siguientes servicios</h5>
+          <p class="display-1 text-center">Portafolio</p>
+          <h5 class="text-center mb-4">Soluciones <b>Creativas</b> para Clientes Satisfechos</h5>
         </div>
       </div>
 
-      <div class="row my-3 py-3 carta-servicios">
-        <div class="col-6">
-          
-          <img src="image/edecanes.png" alt="" class="img-fluid rounded">
+      <div class="row g-4">
+
+        <div class="col-xxl-2 col-xl-2 col-lg-4 col-md-4 col-sm-6" data-bs-toggle="modal"
+          data-bs-target="#MrLuchoModal">
+          <div class="portadas">
+            <img src="image/logos/color/1940.png" alt="Mr Lucho" class="img-fluid">
+          </div>
         </div>
-        <div class="col-6">
-          <p class="display-5 rosa">Edecania</p>
-          <h6 class="mb-3">Generar Confianza entre los Consumidores: Su autenticidad y experiencia influyen en la percepción positiva de la marca.</h6>
-          <ul>
-            <li><b>Talento especializado</b> para eventos, promociones y campañas publicitarias.</li>
-            <li>Modelos, edecanes y gios <b>capacitados para representar tu marca</b> con profesionalismo.</li>
-          </ul>
+
+        <div class="col-xxl-2 col-xl-2 col-lg-4 col-md-4 col-sm-6" data-bs-toggle="modal"
+          data-bs-target="#MrLuchoModal">
+          <div class="portadas">
+            <img src="image/logos/color/Campo-Azul.png" alt="Mr Lucho" class="img-fluid">
+          </div>
         </div>
+
+        <div class="col-xxl-2 col-xl-2 col-lg-4 col-md-4 col-sm-6" data-bs-toggle="modal"
+          data-bs-target="#MrLuchoModal">
+          <div class="portadas">
+            <img src="image/logos/color/Chupa-Chups.png" alt="Mr Lucho" class="img-fluid">
+          </div>
+        </div>
+
+        <div class="col-xxl-2 col-xl-2 col-lg-4 col-md-4 col-sm-6" data-bs-toggle="modal"
+          data-bs-target="#MrLuchoModal">
+          <div class="portadas">
+            <img src="image/logos/color/Mr-Lucho.png" alt="Mr Lucho" class="img-fluid">
+          </div>
+        </div>
+
+        <div class="col-xxl-2 col-xl-2 col-lg-4 col-md-4 col-sm-6" data-bs-toggle="modal"
+          data-bs-target="#MrLuchoModal">
+          <div class="portadas">
+            <img src="image/logos/color/Negro-Zafiro.png" alt="Mr Lucho" class="img-fluid">
+          </div>
+        </div>
+
+        <div class="col-xxl-2 col-xl-2 col-lg-4 col-md-4 col-sm-6" data-bs-toggle="modal"
+          data-bs-target="#MrLuchoModal">
+          <div class="portadas">
+            <img src="image/logos/color/Palacio-de-Hierro.png" alt="Mr Lucho" class="img-fluid">
+          </div>
+        </div>
+
+        <div class="col-xxl-2 col-xl-2 col-lg-4 col-md-4 col-sm-6" data-bs-toggle="modal"
+          data-bs-target="#MrLuchoModal">
+          <div class="portadas">
+            <img src="image/logos/color/Shell-Helix.png" alt="Mr Lucho" class="img-fluid">
+          </div>
+        </div>
+
+        <div class="col-xxl-2 col-xl-2 col-lg-4 col-md-4 col-sm-6" data-bs-toggle="modal"
+          data-bs-target="#MrLuchoModal">
+          <div class="portadas">
+            <img src="image/logos/color/Skandia.png" alt="Mr Lucho" class="img-fluid">
+          </div>
+        </div>
+
+        <div class="col-xxl-2 col-xl-2 col-lg-4 col-md-4 col-sm-6" data-bs-toggle="modal"
+          data-bs-target="#MrLuchoModal">
+          <div class="portadas">
+            <img src="image/logos/color/Suerox.png" alt="Mr Lucho" class="img-fluid">
+          </div>
+        </div>
+
+        <div class="col-xxl-2 col-xl-2 col-lg-4 col-md-4 col-sm-6" data-bs-toggle="modal"
+          data-bs-target="#MrLuchoModal">
+          <div class="portadas">
+            <img src="image/logos/color/Sura.png" alt="Mr Lucho" class="img-fluid">
+          </div>
+        </div>
+
+        <div class="col-xxl-2 col-xl-2 col-lg-4 col-md-4 col-sm-6" data-bs-toggle="modal"
+          data-bs-target="#MrLuchoModal">
+          <div class="portadas">
+            <img src="image/logos/color/telcel.png" alt="Mr Lucho" class="img-fluid">
+          </div>
+        </div>
+
+          <div class="col-xxl-2 col-xl-2 col-lg-4 col-md-4 col-sm-6">
+            <div class="portadas">
+              <a href="portafolio/telcel.html">
+                <img src="image/logos/color/Tesoro-Azul.png" alt="Mr Lucho" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
       </div>
-    
-      <div class="row my-3 py-3 carta-servicios">
-        <div class="col-6">
-          <p class="display-5 rosa">Soluciones de Stand a la Medida</p>
-          <h6 class="mb-3">Diseño, Renta y Fabricación</h6>
-          <ul>
-            <li>Creamos <b>stands personalizados</b> que se adaptan a tus necesidades.</li>
-            <li>Ofrecemos servicios de <b>diseño, renta y fabricación para eventos</b>, ferias y exposiciones.</li>
-            <li>Destaca con un stand único y atractivo para tu marca. 🎯👏</li>
-          </ul>
-        </div>
-        <div class="col-6">
-          <img src="image/renta-y-fabricacion.png" alt="" class="img-fluid rounded">
-        </div>
-      </div>
+
     </div>
   </div>
 
-  <!-- Experiencia -->
-  <div id="experiencia-link"></div>
-  <div class="container my-5" id="experiencia">
-    <div class="row">
-      <div class="col-12">
-        <h1 class="display-3 text-center mb-3">Experiencia</h1>
-        <p class="text-center">Idea Centrada en el Cliente, Eventos Impactantes: Tu Éxito, Nuestra Prioridad</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-6">
-        <p>
-          Somos una agencia <b>BTL 360</b>, conformada por un equipo de
-          profesionales y creativos con el fin de desarrollar nuevas tendencias y brindar soluciones.
-        </p>
-        <p>
-          Siempre buscamos la manera más simple y
-          divertida de proyectar tu <b>marca</b> para que sea amada por los
-          consumidores.
-        </p>
-      </div>
-      <div class="col-6">
-        <p>
-          Conectamos con el público con tu marca, manteniendo un
-          <b>vínculo</b> invulnerable entre <b>diseño</b>, <b>imagen e identidad
-            corporativa</b>, <b>marketing digital</b> y <b>posicionamiento de marca</b>.
-          Trabajamos por y para nuestros clientes. Entregamos a cada
-          proyecto todo nuestro talento, nuestra pasión, experiencia y
-          creatividad.
-        </p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-6">
-        <img src="image/exp-01.jpg" alt="" class="img-fluid rounded">
-      </div>
-      <div class="col-6">
-        <img src="image/exp-02.jpg" alt="" class="img-fluid rounded">
-      </div>
-    </div>
-  </div>
+  
+
+  
+
 
   <!-- Contacto -->
   <div id="contacto-link"></div>
