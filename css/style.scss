@@ -96,12 +96,18 @@ body {
 
     #primer {
       width: 100%;
+<<<<<<< HEAD
       height: 50vh;
+=======
+      
+      padding-top: 20px;
+>>>>>>> f992442f3d567402ed100c6a9e4102a88cdcdf63
       background: rgb(3,18,25);
       background: -moz-linear-gradient(180deg, rgba(3,18,25,1) 25%, rgba(65,17,37,1) 100%);
       background: -webkit-linear-gradient(180deg, rgba(3,18,25,1) 25%, rgba(65,17,37,1) 100%);
       background: linear-gradient(180deg, rgba(3,18,25,1) 25%, rgba(65,17,37,1) 100%);
       filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#031219",endColorstr="#411125",GradientType=1);
+<<<<<<< HEAD
       #segundo {
         width: 100%;
         height: 100%;
@@ -135,6 +141,13 @@ body {
       background: linear-gradient(180deg, rgba(3,18,25,1) 25%, rgba(65,17,37,1) 100%);
       filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#031219",endColorstr="#411125",GradientType=1);
       */
+=======
+      #hero-section {
+        background-color: #031219d5;
+        color: white;
+        border: 1px solid $rosa100;
+      }
+>>>>>>> f992442f3d567402ed100c6a9e4102a88cdcdf63
     }
   #nosotros {
     background-color: $gris-sup40;
