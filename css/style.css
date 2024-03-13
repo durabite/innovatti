@@ -124,10 +124,20 @@ body #portafolio .portadas img:hover {
 body #servicios {
   color: white;
 }
-body #servicios .carta-servicios {
-  background-color: rgba(40, 40, 40, 0.5);
-  border: 1px solid #AFB1B4;
-  border-radius: 8px;
+body #servicios .card-servicios {
+  color: white;
+  text-decoration: none;
+  display: block;
+  background-color: transparent;
+  border-radius: 4px;
+  transition: all 0.5s;
+}
+body #servicios .card-servicios:hover {
+  background-color: #FF3D7F;
+}
+body #servicios .card-servicios p {
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 body #experiencia {
   color: white;
@@ -284,12 +294,22 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
 
+.redes-sociales {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
 .redes-sociales li {
+  display: inline-block;
   color: white;
+  margin: 0 8px;
 }
 .redes-sociales li a {
   color: white;
   text-decoration: none;
+}
+.redes-sociales li a:hover {
+  color: #FFB1CC;
 }
 
 #descarga {
@@ -315,4 +335,75 @@ h1, h2, h3, h4, h5, h6 {
 .link a {
   color: #FF3D7F;
   text-decoration: none;
+}
+
+.return {
+  color: white;
+  display: block;
+  border-radius: 4px;
+  border: 1px solid #FF3D7F;
+  box-sizing: content-box;
+  height: 2rem;
+  width: 2rem;
+  background-color: transparent;
+  transition: all 0.5s;
+}
+.return:hover {
+  background-color: #FF3D7F;
+}
+.return span {
+  font-size: 2rem;
+}
+
+.texto-return {
+  color: white;
+  font-size: 1.9rem;
+}
+
+.bg-campanas {
+  background-image: url("../image/portadas/campanas.jpg");
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-stands {
+  background-image: url("../image/portadas/stands.jpg");
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-mobiliario {
+  background-image: url("../image/portadas/mobiliario.jpg");
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-edecania {
+  background-image: url("../image/portadas/edecania.jpg");
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-dm {
+  background-image: url("../image/portadas/dm.jpg");
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slider-servicios {
+  color: white;
+}
+
+.contenido-servicios {
+  width: 100%;
+  height: auto;
+  color: white;
+  background: rgb(255, 61, 127);
+  background: linear-gradient(350deg, rgb(255, 61, 127) 0%, rgb(3, 18, 25) 50%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff3d7f",endColorstr="#031219",GradientType=1);
 }/*# sourceMappingURL=style.css.map */
