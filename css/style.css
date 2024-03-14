@@ -318,7 +318,8 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #f9b8b2;
   border: 1px solid red;
   padding: 8px;
-  width: 500px;
+  width: 189px;
+  height: 40px;
   border-radius: 3px;
   transition: background-color 0.5s;
 }
