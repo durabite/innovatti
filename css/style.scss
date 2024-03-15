@@ -324,7 +324,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #f9b8b2;
   border: 1px solid red;
   padding: 8px;
-  width: 189px;
+  width: 220px;
   height: 40px;
   border-radius: 3px;
   transition: background-color 0.5s;
@@ -452,7 +452,31 @@ h1, h2, h3, h4, h5, h6 {
   background-position: 50% 75%;
 }
 #bg-skandia {
-  background-color: $turquesa100 !important;
+  background-color: #3B3B3B !important;
+}
+#bg-suerox {
+  background-image: url('../image/gallery/Suerox/bg-suerox.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 50% 75%;
+}
+#bg-sura {
+  background-color: #0033A0 !important;
+}
+#bg-telcel {
+  background-image: url('../image/gallery/Telcel/bg-telcel.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 50% 25%;
+}
+#bg-tesoro-azul {
+  background-image: url('../image/gallery/TesoroAzul/bg-tesoro-azul.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 50% 0%;
 }
 //Galeria de fotos
 .photo-gallery {
