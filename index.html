@@ -18,13 +18,14 @@
 
 <body>
   <!-- Header -->
+  <!--Menu Principal-->
   <div class="container my-3" id="menu">
     <div class="row">
       <div class="header d-flex align-items-center p-3">
 
       
       <div
-        class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 text-xxl-start text-xl-start text-lg-start text-md-center text-sm-center text-center">
+        class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 text-xxl-start text-xl-start text-lg-start text-md-start text-sm-start">
         <a href="#" id="logo">
           <img src="image/logoInnovattiBlanco.png" alt="" class="img-fluid my-2">
         </a>
@@ -32,7 +33,7 @@
 
       <!-- Menu Principal -->
       <div
-        class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 d-flex justify-content-end d-none d-xxl-block d-xl-block d-lg-block d-md-block">
+        class="col-6 col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 d-flex justify-content-end d-none d-xxl-block d-xl-block d-lg-block d-md-none">
         <ul id="menu-principal" class="d-flex justify-content-end m-0">
           <li><a href="#nosotros-link">Nosotros</a></li>
           <li><a href="#servicios-link">Servicios</a></li>
@@ -40,13 +41,37 @@
           <li><a href="#contacto-link" id="btn-contacto" class="p-2 pb-2">Contacto</a></li>
         </ul>
       </div>
-      <div class="col-12 d-block d-sm-block d-md-none text-center">
+      <!--Boton Menu Desplegable-->
+      <div class="col-6 d-sm-flex d-md-flex justify-content-end">
         <button class="btn btn-rosa mt-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#menu-desplegable"
-          aria-controls="offcanvasExample">
-          Menú <i class="mdi mdi-menu"></i>
+          aria-controls="offcanvasExample" id="btn-menu-desplegable">
+          Menú <span class="mdi mdi-menu"></span>
         </button>
       </div>
     </div>
+    </div>
+  </div>
+
+  <!-- Menu Desplegable -->
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="menu-desplegable" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasExampleLabel">Menú</h5>
+      <button type="button" class="mdi mdi-close btn-close-rosa" data-bs-dismiss="offcanvas"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div>
+        <ul id="menu-mobile" class="d-flex-inline">
+          <li type="button" data-bs-dismiss="offcanvas"><a href="#nosotros-link">Nosotros</a></li>
+          <li type="button" data-bs-dismiss="offcanvas"><a href="#servicios-link">Servicios</a></li>
+          <li type="button" data-bs-dismiss="offcanvas">
+            <a href="#portafolio-link">Portafolio</a>
+          </li>
+          <li type="button" data-bs-dismiss="offcanvas">
+            <a href="#contacto-link" id="btn-contacto"
+              class="p-2 pb-2">Contacto</a>
+            </li>
+        </ul>
+      </div>
     </div>
   </div>
 
@@ -56,6 +81,7 @@
 
   <!-- Nosotros -->
   <div id="nosotros" class="py-3">
+    <div id="nosotros-link"></div>
     <div class="container py-3">
       <div class="row">
         <div class="col-12">
@@ -86,6 +112,7 @@
 
   <!-- Servicios -->
   <div id="servicios" class="py-3">
+    <div id="servicios-link"></div>
     <div class="container py-3">
       <div class="row">
         <div class="col-12">
@@ -95,31 +122,31 @@
       </div>
 
       <div class="row">
-        <div class="col">
+        <div class="col-xxl-2 offset-xxl-1">
           <a href="servicios/campanas.html" class="text-center card-servicios">
             <img src="image/cc.png" alt="" class="img-fluid rounded">
             <p class="my-1">Campañas Creativas</p>
           </a>
         </div>
-        <div class="col">
+        <div class="col-2">
           <a href="servicios/stands.html" class="text-center card-servicios">
             <img src="image/stands.png" alt="" class="img-fluid rounded">
             <p class="my-1">Stands</p>
           </a>
         </div>
-        <div class="col">
+        <div class="col-2">
           <a href="servicios/mobiliario.html" class="text-center card-servicios">
             <img src="image/mobiliario.png" alt="" class="img-fluid rounded">
             <p class="my-1">Mobiliario</p>
           </a>
         </div>
-        <div class="col">
+        <div class="col-2">
           <a href="servicios/edecania.html" class="text-center card-servicios">
             <img src="image/edecania.png" alt="" class="img-fluid rounded">
             <p class="my-1">Edecanía</p>
           </a>
         </div>
-        <div class="col">
+        <div class="col-xxl-2">
           <a href="servicios/diseno-y-marketing.html" class="text-center card-servicios">
             <img src="image/dm.png" alt="" class="img-fluid rounded">
             <p class="my-1">Diseño y Marketing</p>
@@ -132,6 +159,7 @@
 
   <!-- Portafolio -->
   <div id="portafolio" class="py-3">
+    <div id="portafolio-link"></div>
     <div class="container py-3">
       <div class="row">
         <div class="col-12">
@@ -334,25 +362,6 @@
     </div>
   </footer>
 
-  <!-- Menu Desplegable -->
-  <div class="offcanvas offcanvas-end" tabindex="-1" id="menu-desplegable" aria-labelledby="offcanvasExampleLabel">
-    <div class="offcanvas-header">
-      <h5 class="offcanvas-title" id="offcanvasExampleLabel">Menú</h5>
-      <button type="button" class="mdi mdi-close btn-close-rosa" data-bs-dismiss="offcanvas"></button>
-    </div>
-    <div class="offcanvas-body">
-      <div>
-        <ul id="menu-mobile" class="d-flex-inline">
-          <li type="button" data-bs-dismiss="offcanvas"><a href="#nosotros-link">Nosotros</a></li>
-          <li type="button" data-bs-dismiss="offcanvas"><a href="#portafolio-link">Portafolio</a></li>
-          <li type="button" data-bs-dismiss="offcanvas"><a href="#servicios-link">Servicios</a></li>
-          <li type="button" data-bs-dismiss="offcanvas"><a href="#experiencia-link">Experiencia</a></li>
-          <li type="button" data-bs-dismiss="offcanvas"><a href="#contacto-link" id="btn-contacto"
-              class="p-2 pb-2">Contacto</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>

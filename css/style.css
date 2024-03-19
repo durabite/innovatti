@@ -152,6 +152,11 @@ body footer {
   color: white;
 }
 
+#btn-menu-desplegable {
+  background-color: #FF3D7F;
+  color: white;
+}
+
 #menu-desplegable {
   background-color: #031219;
   color: white;
@@ -489,4 +494,31 @@ h1, h2, h3, h4, h5, h6 {
 
 .lb-data {
   display: none;
+}
+
+/*Media Queries*/
+@media (min-width: 576px) {
+  #seccion-a {
+    height: 35vh !important;
+  }
+}
+@media (min-width: 768px) {
+  #seccion-a {
+    height: 50vh !important;
+  }
+}
+@media (min-width: 992px) {
+  #seccion-a {
+    height: 50vh !important;
+  }
+}
+@media (min-width: 1200px) {
+  #seccion-a {
+    height: 75vh !important;
+  }
+}
+@media (min-width: 1400px) {
+  #seccion-a {
+    height: 80vh !important;
+  }
 }/*# sourceMappingURL=style.css.map */
