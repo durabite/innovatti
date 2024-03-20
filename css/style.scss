@@ -528,6 +528,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 /*Media Queries*/
 
+@media (min-width: 300px) {
+  #seccion-a {
+    height: 35vh !important;
+  }
+}
 @media (min-width: 576px) {
   #seccion-a {
     height: 35vh !important;
