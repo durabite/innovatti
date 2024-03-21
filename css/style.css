@@ -86,7 +86,7 @@ body #seccion-a {
   background: url(../image/giphy.gif);
   opacity: 0.25;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   /*
   background: rgb(3,18,25);
   background: -moz-linear-gradient(180deg, rgba(3,18,25,1) 25%, rgba(65,17,37,1) 100%);
@@ -385,7 +385,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #bg-chupachups {
-  background-color: #3FB8AF !important;
+  background-image: url("../image/gallery/ChupaChups/bg-chupachups-2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 #bg-mrlucho {
@@ -421,7 +424,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #bg-skandia {
-  background-color: #3B3B3B !important;
+  background-image: url("../image/gallery/Skandia/bg-skandia.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 50% 75%;
 }
 
 #bg-suerox {
@@ -433,7 +440,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #bg-sura {
-  background-color: #0033A0 !important;
+  background-image: url("../image/gallery/Sura/bg-sura.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 50% 75%;
 }
 
 #bg-telcel {
@@ -519,11 +530,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (min-width: 1200px) {
   #seccion-a {
-    height: 75vh !important;
+    height: 100vh !important;
   }
 }
 @media (min-width: 1400px) {
   #seccion-a {
-    height: 80vh !important;
+    height: 100vh !important;
   }
 }/*# sourceMappingURL=style.css.map */
